@@ -144,6 +144,19 @@ input[type=text], select {
 	color: #afafaf;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #afafaf;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #afafaf;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #afafaf;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #afafaf;
+}
+
 select {
     width: 275px;
     padding-left: 15px;
