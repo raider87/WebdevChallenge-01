@@ -284,3 +284,35 @@ textarea {
 	padding: 20px;
 	resize: none;
 }
+
+/*	================================================================================
+ *	RWD
+ *	================================================================================ */
+ 
+ @media (max-width: 1020px) { 
+	.container {
+		margin:0 auto;
+		max-width:1000px;
+		width:100%;
+	}
+
+	.row {
+		display: block;
+	}
+
+	.half {
+		width: 420px;
+	}
+
+	.column-half {
+		width: 500px;
+	}
+
+	input.half.right {
+		width: 150px;
+	}
+
+	.small {
+		width: 150px !important;
+	}
+}
